@@ -1,0 +1,37 @@
+name: SlothPlugin
+version: ${project.version}
+main: mc.sloth.slothplugin.SlothPlugin
+api-version: 1.16
+authors: [ Maksiooo ]
+description: The best polish plugin to your server
+commands:
+  heal:
+    description: Ulecz się
+    usage: /<command>
+  feed:
+    description: Spraw aby twój pasek głodu był pełny
+    usage: /<command>
+  god:
+    description: Ustaw tryb god
+    usage: /<command>
+  fly:
+    description: Włącz możliwość latania
+    usage: /<command>
+  crafting:
+    description: Otwórz crafting table
+    usage: /<command>
+  strike:
+    description: Zespawnuj błyskawicę
+    usage: /<command>
+  stats:
+    description: Zobacz swoje statystyki
+    usage: /<command>
+  reloadconfig:
+    description: Przeładuj pliki konfiguracji
+    usage: /<command>
+  tnt:
+    description: Zespawnuj tnt
+    usage: /<command>
+  floatingtext:
+    description: Stwórz lewitujący tekst
+    usage: /<command> <arguments>
