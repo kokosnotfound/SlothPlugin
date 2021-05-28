@@ -5,16 +5,16 @@ Sloth to świetny plugin na twój serwer. Dzięki module konfiguracji, będzie d
 
 # Spis Treści
 
-1. [Dokumentacja](#docs)
-    1. [Instalacja](#installation)
+1. [Dokumentacja](#dokumentacja)
+    1. [Instalacja](#instalacja)
     2. [Konfiguracja](#konfiguracja)
-    3. [Komendy](#commands)
-3. [Pomoc](#helpcenter)
-2. [Licencja](#license)
+    3. [Komendy](#komendy)
+3. [Pomoc](#pomoc)
+2. [Licencja](#licencja)
 
-# [Dokumentacja](#docs)
+# Dokumentacja
 
-## [Instalacja](#installation)
+## Instalacja
 
 Aby zainstalować plugin wejdź w folder plugin/versions a nastepnie wybierz wersję. Na razie dostępna jest tylko wersja 1.16.5
 
@@ -26,7 +26,7 @@ Za niedługo dostępna będzie instalacja z naszej strony www
 
 
 
-## [Konfiguracja](#konfiguracja)
+## Konfiguracja
 
 Kiedy pierwszy raz odpalisz plugin na swoim serwerze stworzy się folder `SlothPlugin`
 
@@ -77,7 +77,7 @@ Legenda:
 Przykład: `JoinMessage: '&lWitaj na serwerze '`
 
 
-# [Komendy](#commands)
+# Komendy
 
 `heal` - Ulecz się
 
@@ -121,10 +121,10 @@ Wymagane permisje: `slothplugin.floatingtext`
 
 Wymagane argumenty: `text`
 
-# [Pomoc](#helpcenter)
+# Pomoc
 
 Indywidualną pomoc możesz uzyskać na naszym serwerze discord.
 
-# [Licencja](#license)
+# Licencja
 
 Cały kod podlega licencji Apache-2.0
