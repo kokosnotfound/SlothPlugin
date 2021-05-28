@@ -23,9 +23,6 @@ commands:
   strike:
     description: Zespawnuj błyskawicę
     usage: /<command>
-  stats:
-    description: Zobacz swoje statystyki
-    usage: /<command>
   reloadconfig:
     description: Przeładuj pliki konfiguracji
     usage: /<command>
@@ -35,3 +32,9 @@ commands:
   floatingtext:
     description: Stwórz lewitujący tekst
     usage: /<command> <arguments>
+  day:
+    description: Ustaw dzień
+    usage: /<command>
+  night:
+    description: Ustaw noc
+    usage: /<command>

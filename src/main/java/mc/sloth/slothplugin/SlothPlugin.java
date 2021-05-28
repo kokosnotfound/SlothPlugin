@@ -20,15 +20,17 @@ public final class SlothPlugin extends JavaPlugin {
         CustomConfig.get().addDefault("JoinMessage", "Witaj na serwerze ");
         CustomConfig.get().addDefault("LeaveMessage", " Wyszedl z serwera");
         CustomConfig.get().addDefault("MissingPermissionsMessage", "Nie posiadasz permisji do tej komendy!");
-        CustomConfig.get().addDefault("CraftingCommandMessage", "Otworzono crafting table");
-        CustomConfig.get().addDefault("FeedCommandMessage", "Zostałeś pomyślnie nakarmiony");
-        CustomConfig.get().addDefault("FlyOnCommandMessage", "Opcja fly została włączona");
-        CustomConfig.get().addDefault("FlyOffCommandMessage", "Opcja fly została wyłączona");
-        CustomConfig.get().addDefault("GodOnCommandMessage", "Tryb god został włączony");
-        CustomConfig.get().addDefault("GodOffCommandMessage", "Tryb god został wyłączony");
-        CustomConfig.get().addDefault("HealCommandMessage", "Zostałeś uzdrowiony");
-        CustomConfig.get().addDefault("StrikeCommandMessage", "Zespawnowano błyskawicę");
-        CustomConfig.get().addDefault("TntCommandMessage", "Zespawnowano tnt");
+        CustomConfig.get().addDefault("CraftingCommandMessage", "Otworzono crafting table ");
+        CustomConfig.get().addDefault("FeedCommandMessage", "Zostałeś pomyślnie nakarmiony ");
+        CustomConfig.get().addDefault("FlyOnCommandMessage", "Opcja fly została włączona ");
+        CustomConfig.get().addDefault("FlyOffCommandMessage", "Opcja fly została wyłączona ");
+        CustomConfig.get().addDefault("GodOnCommandMessage", "Tryb god został włączony ");
+        CustomConfig.get().addDefault("GodOffCommandMessage", "Tryb god został wyłączony ");
+        CustomConfig.get().addDefault("HealCommandMessage", "Zostałeś uzdrowiony ");
+        CustomConfig.get().addDefault("StrikeCommandMessage", "Zespawnowano błyskawicę ");
+        CustomConfig.get().addDefault("TntCommandMessage", "Zespawnowano tnt ");
+        CustomConfig.get().addDefault("DayCommandMessage", "Ustawiono dzień ");
+        CustomConfig.get().addDefault("NightCommandMessage", "Ustawiono noc ");
         CustomConfig.get().options().copyDefaults(true);
         CustomConfig.save();
 
@@ -43,15 +45,15 @@ public final class SlothPlugin extends JavaPlugin {
         getCommand( "fly").setExecutor(new FlyCommand());
         getCommand( "crafting").setExecutor(new CraftingCommand());
         getCommand("strike").setExecutor(new StrikeCommand());
-        getCommand("stats").setExecutor(new StatsCommand());
         getCommand("reloadconfig").setExecutor(new ReloadConfigCommand());
         getCommand("tnt").setExecutor(new TntCommand());
         getCommand("floatingtext").setExecutor(new FloatingText());
+        getCommand("day").setExecutor(new DayCommand());
+        getCommand("night").setExecutor(new NightCommand());
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
         System.out.println("Plugin Sloth Zatrzymal Dzialanie Pomyslnie");
     }
 }

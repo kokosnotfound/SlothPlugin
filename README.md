@@ -1,3 +1,4 @@
+
 # SlothPlugin
 
 Sloth to świetny plugin na twój serwer. Dzięki module konfiguracji, będzie działał tak, jak TY chcesz.
@@ -59,6 +60,10 @@ Wyjaśnienia każdej opcji w pliku `pluginconfig.yml`:
 & `GodOffCommandMessage` - Wiadomość do wyświetlania gdy zostanie wykonana komenda `god` i opcja god zostanie **wyłączona**
 
 & `HealCommandMessage` - Wiadomość do wyświetlania gdy zostanie wykonana komenda `heal`
+
+& `DayCommandMessage` - Wiadomość do wyświetlania gdy zostanie wykonana komenda `day`
+
+& `NightCommandMessage` - Wiadomość do wyświetlania gdy zostanie wykonana komenda `night`
 
 `MissingPermissionsMessage` - Wiadomość do wyświetlania gdy użytkownik nie będzie miał permisji do wykonania komendy
 
