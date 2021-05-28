@@ -22,7 +22,7 @@ W folderze znajdziesz plik jar - pobierz go
 
 Aby zamocować plugin na swoim serwerze wklej plik jar w folder plugins na swoim hostingu
 
-Za niedługo dostępna będzie instalacja z naszej strony www
+Plik jar możesz również uzyskać z naszej strony https://maksiooo.github.io/SlothPlugin/website/
 
 
 
