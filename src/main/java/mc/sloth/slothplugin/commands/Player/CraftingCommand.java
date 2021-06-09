@@ -1,4 +1,4 @@
-package mc.sloth.slothplugin.commands;
+package mc.sloth.slothplugin.commands.Player;
 
 import mc.sloth.slothplugin.files.config.CustomConfig;
 import org.bukkit.ChatColor;
@@ -7,14 +7,14 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class NightCommand implements CommandExecutor {
+public class CraftingCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             Player player = (Player) sender;
-            if (player.hasPermission("slothplugin.night")) {
-                player.getWorld().setTime(13000);
-                player.sendMessage(ChatColor.translateAlternateColorCodes('&', CustomConfig.get().getString("NightCommandMessage")));
+            if (player.hasPermission("slothplugin.crafting")) {
+                player.openWorkbench(null, true);
+                player.sendMessage(ChatColor.translateAlternateColorCodes('&', CustomConfig.get().getString("CraftingCommandMessage")));
             } else {
                 player.sendMessage(ChatColor.RED + CustomConfig.get().getString("MissingPermissionsMessage"));
             }

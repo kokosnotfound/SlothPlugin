@@ -1,6 +1,11 @@
 package mc.sloth.slothplugin;
 
 import mc.sloth.slothplugin.commands.*;
+import mc.sloth.slothplugin.commands.Media.DiscordCommand;
+import mc.sloth.slothplugin.commands.Media.TeamspeakCommand;
+import mc.sloth.slothplugin.commands.Media.YoutubeCommand;
+import mc.sloth.slothplugin.commands.Player.*;
+import mc.sloth.slothplugin.commands.World.*;
 import mc.sloth.slothplugin.events.PlayerJoin;
 import mc.sloth.slothplugin.events.PlayerLeave;
 import mc.sloth.slothplugin.files.config.CustomConfig;
@@ -31,6 +36,9 @@ public final class SlothPlugin extends JavaPlugin {
         CustomConfig.get().addDefault("TntCommandMessage", "Zespawnowano tnt ");
         CustomConfig.get().addDefault("DayCommandMessage", "Ustawiono dzień ");
         CustomConfig.get().addDefault("NightCommandMessage", "Ustawiono noc ");
+        CustomConfig.get().addDefault("Discord", "Serwer discord nie został ustawiony ");
+        CustomConfig.get().addDefault("YoutubeChannel", "Kanał youtube nie został ustawiony ");
+        CustomConfig.get().addDefault("TeamSpeak", "Serwer teamspeak nie został ustawiony ");
         CustomConfig.get().options().copyDefaults(true);
         CustomConfig.save();
 
@@ -47,9 +55,11 @@ public final class SlothPlugin extends JavaPlugin {
         getCommand("strike").setExecutor(new StrikeCommand());
         getCommand("reloadconfig").setExecutor(new ReloadConfigCommand());
         getCommand("tnt").setExecutor(new TntCommand());
-        getCommand("floatingtext").setExecutor(new FloatingText());
         getCommand("day").setExecutor(new DayCommand());
         getCommand("night").setExecutor(new NightCommand());
+        getCommand("discord").setExecutor(new DiscordCommand());
+        getCommand("youtube").setExecutor(new YoutubeCommand());
+        getCommand("teamspeak").setExecutor(new TeamspeakCommand());
     }
 
     @Override

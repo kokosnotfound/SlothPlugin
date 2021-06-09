@@ -1,5 +1,21 @@
 # CHANGELOG
 
+### **0.1.1-BETA**
+
+- Usunięto komendę `floatingtext`
+
+- Dodano komendę `discord`
+
+- Dodano komendę `teamspeak`
+
+- Dodano komendę `youtube`
+
+- Dodano opcję `Discord` do pliku `pluginconfig.yml`
+
+- Dodano opcję `YoutubeChannel` do pliku `pluginconfig.yml`
+
+- Dodano opcję `TeamSpeak` do pliku `pluginconfig.yml`
+
 ### **0.1.0-BETA**
 
 - Usunięto komendę `stats` (Uznano ją za zbędną)

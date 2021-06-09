@@ -29,12 +29,20 @@ commands:
   tnt:
     description: Zespawnuj tnt
     usage: /<command>
-  floatingtext:
-    description: Stwórz lewitujący tekst
-    usage: /<command> <arguments>
   day:
     description: Ustaw dzień
     usage: /<command>
   night:
     description: Ustaw noc
     usage: /<command>
+  discord:
+    description: Discord serwera
+    usage: /<command>
+  youtube:
+    description: Kanał youtube
+    usage: /<command>
+  teamspeak:
+    description: Serwer teamspeak
+    usage: /<command>
+    aliases:
+      - ts

@@ -103,10 +103,6 @@ Wymagane permisje: `slothplugin.crafting`
 
 Wymagane permisje: `slothplugin.strike`
 
-`stats` - Zobacz swoje statystyki
-
-Wymagane permisje: Brak wymaganych permisji
-
 `reloadconfig` - Przeładuj pliki konfiguracji
 
 Wymagane permisje: Komenda możliwa do wywołania **tylko przez konsolę**
@@ -115,11 +111,13 @@ Wymagane permisje: Komenda możliwa do wywołania **tylko przez konsolę**
 
 Wymagane permisje: `slothplugin.tnt`
 
-`floatingtext` - Stwórz lewitujący tekst
+`day` - Ustaw Dzień
 
-Wymagane permisje: `slothplugin.floatingtext`
+Wymagane permisje: `slothplugin.day`
 
-Wymagane argumenty: `text`
+`night` - Ustaw Noc
+
+Wymagane permisje: `slothplugin.night`
 
 # Pomoc
 
