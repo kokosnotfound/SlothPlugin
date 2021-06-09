@@ -67,6 +67,12 @@ Wyjaśnienia każdej opcji w pliku `pluginconfig.yml`:
 
 `MissingPermissionsMessage` - Wiadomość do wyświetlania gdy użytkownik nie będzie miał permisji do wykonania komendy
 
+& `Discord` - Serwer disord twojego serwera
+
+& `TeamSpeak` - Serwer teamspeak twojego serwera
+
+& `Youtube` - Kanał youtube twojego serwera
+
 Aby zapisać konfiguracje bez przeładowywania serwera, użyj komendy `reloadconfig` (Komendę możesz wywołać tylko przez konsolę)
 
 
@@ -118,6 +124,18 @@ Wymagane permisje: `slothplugin.day`
 `night` - Ustaw Noc
 
 Wymagane permisje: `slothplugin.night`
+
+`discord` - Wyświetl serwer discord serwera
+
+Wymagane permisje: Brak wymaganych permisji
+
+`teamspeak` - Wyświetl serwer teamspeak serwera
+
+Wymagane permisje: Brak wymaganych permisji
+
+`youtube` - Wyświetl kanał youtube serwera
+
+Wymagane permisje: Brak wymaganych permisji
 
 # Pomoc
 
